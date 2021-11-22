@@ -1,6 +1,6 @@
 ---
-title: "John Doe"
-email: "email2@example.org"
+title: "Usia van Leeuwen"
+email: "usia23@hotmail.com"
 bg_image: "images/feature-bg.jpg"
 draft: false
 social:
@@ -12,5 +12,4 @@ social:
     link : "#"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+Ik ben Usia van Leeuwen, vrouw van de knapste man van Nederland en moeder van de twee liefste kinderen van de wereld. 
