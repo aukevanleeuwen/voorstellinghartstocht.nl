@@ -5,4 +5,3 @@ minify:
   disableJSON: true
   disableSVG: true
   disableXML: true
-

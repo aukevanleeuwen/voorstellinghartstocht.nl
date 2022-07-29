@@ -1,6 +1,5 @@
 baseURL: /
 languageCode: nl-nl
-title: Voorstelling Hartstocht | Music by Usia
 theme: roxo
 summarylength: 25
 defaultContentLanguage: nl
@@ -16,8 +15,8 @@ menu:
     - name: Home
       url: ''
       weight: 1
-    - name: Muziek
-      url: muziek
+    - name: Hartstocht
+      url: voorstelling-hartstocht
       weight: 2
     - name: Agenda
       url: agenda
@@ -36,7 +35,8 @@ menu:
       weight: 7
 
 params:
-  logo: images/logo.png
+  logo: images/logo_big.png
+  logo_hartstocht: images/logo-hartstocht.png
   dateFormat: 26 FEB 1994
   description: Roxo Hugo themes | Design Agency Template by StaticMania
   author: StaticMania
@@ -61,14 +61,14 @@ params:
     url: contact
   banner:
     enable: true
-    background_image: images/backgrounds/hero-background.jpg
-    heading: We’re a Design Studio That Belies In the Great Ideas
-    tagline: 'WE WORK HARD, WE PLAY HARD'
-    primary_button: See Our Works
-    primary_button_url: portfolio
-    secondary_button: Connect with Us
-    secondary_button_url: contact
-  muziek:
+    background_image: images/backgrounds/usia-bij-raam-1.jpeg
+    heading: Voorstelling Hartstocht
+    tagline: ''
+    primary_button: Agenda
+    primary_button_url: agenda
+    secondary_button: Over de voorstelling
+    secondary_button_url: voorstelling-hartstocht
+  voorstelling-hartstocht:
     enable: true
     title: OUR RECENT WORKS
     subtitle: Crafting experiences and seeking to make the complex clear & beautiful.
@@ -81,9 +81,9 @@ params:
     secondary_button: Not Convinced
     secondary_button_url: portfolio
   footer:
-    contactInfo:
-      title: Contact Info
-      address: '713 Elmwood St.<br>Prior Lake, MN 55372'
+    contactInfo2:
+      title: Contact
+      address: ''
       phone: 409-896-1444
       email: info@roxo.co
     sitemap:
@@ -134,3 +134,6 @@ deployment:
       gzip: true
     - pattern: ^.+\.(html|xml|json)$
       gzip: true
+
+imaging:
+  quality: 100
